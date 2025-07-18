@@ -1,0 +1,18 @@
+1) Syntax :- 
+kit.sendwhatmsg(phone_no: str, message: str, time_hour: int, time_min: int)
+
+2) Parameters :-
+phone_no: Must include country code (e.g., +91 for India)
+message: The message to send
+time_hour: Hour in 24-hour format
+time_min: Minute
+wait_time: Time to wait before sending the message after opening the tab (in seconds)
+tab_close: Close the tab after sending (True/False)
+close_time: How many seconds to wait before closing the tab (if tab_close = True)
+Make sure the time is at least 1-2 minutes ahead of the current time to give the system time to prepare.
+
+3) Instructions :-
+Internet Connection must be stable.
+WhatsApp Web will open automatically in your default browser.
+You must be already logged into WhatsApp Web.
+Keep the screen active, don't close the browser or minimize it immediately.
